@@ -33,7 +33,7 @@ To set up this project locally, follow these steps:
 ### Steps  
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/codeantai.git
+   git clone https://github.com/your-smaoom/codeantai.git
    
 
 2. Navigate to the project directory:
