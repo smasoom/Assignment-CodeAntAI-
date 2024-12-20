@@ -1,6 +1,4 @@
-Sure, here's your content converted into GitHub README markdown format:
 
-```markdown
 # CodeAnt AI: Frontend Developer Intern Assignment
 
 ## Project Overview
