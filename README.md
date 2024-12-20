@@ -1,82 +1,92 @@
-# CodeAntai
+Sure, here's your content converted into GitHub README markdown format:
 
-CodeAntai is a web application built with modern web technologies, designed to provide a smooth and responsive user experience. This project focuses on implementing scalable, maintainable code while following the best practices of front-end development.
+```markdown
+# CodeAnt AI: Frontend Developer Intern Assignment
 
----
+## Project Overview
 
-## Technologies Used  
-- *ReactJS*: For building the user interface.  
-- *TypeScript*: For static typing and type safety.  
-- *Tailwind CSS*: For utility-first CSS styling.  
-- *HTML*: For structuring the application.  
-- *pnpm*: For fast and efficient dependency management.  
-- *Vite*: For fast development and build process.  
+**CodeAnt AI** is a Y Combinator-backed startup that's transforming the world of code quality and security. By leveraging cutting-edge AI-driven solutions, CodeAnt AI offers efficient and deterministic fixes that enhance the security and cleanliness of code. Trusted by industry leaders and supported by top investors, CodeAnt AI aims to solve complex challenges and push the boundaries of coding innovation.
 
 ---
 
-## Features  
-- Fully responsive design, optimized for different screen sizes.  
-- Accurate implementation of the Figma design.  
-- Clean and modular code for scalability and maintainability.  
-- Built with TypeScript for enhanced type safety.  
-- Styled with Tailwind CSS for rapid UI development.  
+## Setting Up the Project Locally
 
----
+To run the project on your local machine, follow these steps:
 
-## Installation and Setup  
-To set up this project locally, follow these steps:
+### 1. Clone the Repository
 
-### Prerequisites  
-- Node.js (version 16 or higher)
-- pnpm (version 7 or higher)
+Use the following commands to clone the repository and navigate into the project directory:
 
-### Steps  
-1. Clone the repository:
-   bash
-   git clone https://github.com/smasoom/Assignment-CodeAntAI.git
-   
+```bash
+git clone https://github.com/smasoom/Assignment-CodeAntAI.git
+cd Assignment-CodeAntAI
+```
 
-2. Navigate to the project directory:
-   bash
-   cd codeantai
-   
+### 2. Install Dependencies
 
-3. Install dependencies using pnpm:
-   bash
-   pnpm install
-   
+Install the required dependencies using pnpm:
 
-4. Start the development server:
-   bash
-   pnpm dev
-   
+```bash
+pnpm install
+```
 
-5. Build the project for production:
-   bash
-   pnpm build
-   
+### 3. Start the Development Server
 
-6. Preview the production build:
-   bash
-   pnpm preview
-   
+After installing the dependencies, start the development server with:
 
----
+```bash
+pnpm run dev
+```
 
-## Project Structure  
-The project structure follows a modular approach for better organization:
+The app will be available at [http://localhost:5173](http://localhost:5173).
 
-/src
-|-- /components
-|-- /pages
-|-- /styles
-|-- /utils
-|-- App.tsx
-|-- main.tsx
-|-- index.css
+## Technologies Used
 
+- **ReactJS**: For building the user interface.
+- **TypeScript**: For adding static typing and improving code quality.
+- **Tailwind CSS**: For utility-first styling and rapid UI development.
+- **Vite**: For fast development and build processes.
 
----
+## Features
 
-## License  
-This project is licensed under the MIT License.
+- Fully responsive design, optimized for different screen sizes.
+- Accurate implementation of the Figma design.
+- Clean and modular code for scalability and maintainability.
+
+## React + TypeScript + Vite
+
+This project uses Vite as the bundler, and React is set up with TypeScript for an enhanced development experience.
+
+### Vite Configuration
+
+- **Fast Development**: Vite provides fast development and build capabilities.
+- **Hot Module Replacement (HMR)**: For smooth development.
+- **React Plugin**: Uses `@vitejs/plugin-react` to enable fast refresh for React.
+
+### ESLint Configuration
+
+To maintain code quality, ESLint is configured with TypeScript. Below are some details:
+
+1. **Enable Type-Aware Linting Rules**
+   - Configure the `parserOptions` property in ESLint.
+   - Add `eslint-plugin-react` to enforce React-specific linting rules.
+
+2. **Sample Configuration**
+
+```javascript
+import react from 'eslint-plugin-react';
+
+export default tseslint.config({
+  settings: { react: { version: '18.3' } },
+  plugins: { react },
+  rules: {
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+  },
+});
+```
+
+## License
+
+This project is licensed under the MIT License. For more details, see the LICENSE file.
+```
